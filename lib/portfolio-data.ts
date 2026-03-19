@@ -65,7 +65,17 @@ export interface Project {
 // PROJECTS - ADD NEW PROJECTS HERE
 // ==========================================
 export const projects: Project[] = [
-  {
+
+    {
+    id: "nova",
+    title: "NOVA",
+    description: "A fully intractive website for the world's most advanced general-purpose humanoid robot.",
+    image: "/images/nova.png",
+    url: "https://nova-beta-flax.vercel.app/",
+    tags: ["TypeScript", "React", "Vite"],
+    featured: true,
+  },
+    {
     id: "jarvis-protocol",
     title: "Jarvis-Protocol",
     description: "A Advanced Voice AI Agent Assistant (built using the Gemini API)",
