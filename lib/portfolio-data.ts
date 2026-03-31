@@ -16,7 +16,7 @@ export const personalInfo = {
 };
 
 export const contact = {
-  email: "hasinduohasa@gmail.com",
+  email: "hello@hasinduohasa.com",
   phone: "+94 76 259 4657",
   address: "Sri Jayalath, Getamanna Rd, Kirinda, Puhulwella, Matara, Sri Lanka",
 };
