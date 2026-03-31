@@ -75,6 +75,15 @@ export const projects: Project[] = [
     tags: ["TypeScript", "React", "Vite"],
     featured: true,
   },
+  {
+    id: "practicle",
+    title: "AL Practical Hub",
+    description: "A interactive platforme to practice, execute, and perfect AL practicle exams over 6 different languages.",
+    image: "/images/alpracticalhub.png",
+    url: "https://alpracticalhub.vercel.app/",
+    tags: ["TypeScript", "React", "Vite"],
+    featured: true,
+  },
     {
     id: "jarvis-protocol",
     title: "Jarvis-Protocol",
