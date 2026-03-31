@@ -66,7 +66,7 @@ export function AboutStats({ isVisible }: { isVisible: boolean }) {
   );
 
   const stats = [
-    { value: `${followers}K+`, label: "TikTok Followers" },
+    { value: `${followers}K+`, label: "Followers" },
     { value: `${views}M+`, label: "Total Views" },
     { value: startYear.toString(), label: "Started Journey" },
     { value: `${years}+`, label: "Years Experience" },
