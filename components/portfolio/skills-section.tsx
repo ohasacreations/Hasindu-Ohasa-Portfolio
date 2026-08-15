@@ -5,12 +5,13 @@ import { skills } from "@/lib/portfolio-data";
 import { cn } from "@/lib/utils";
 
 const skillCategories = [
-  { key: "languages", label: "Languages", icon: "💻" },
-  { key: "frameworks", label: "Frameworks", icon: "⚛️" },
+  { key: "languages", label: "Programming Languages", icon: "💻" },
+  { key: "aiMl", label: "AI & Machine Learning", icon: "🧠" },
+  { key: "cybersecurity", label: "Cybersecurity", icon: "🛡️" },
+  { key: "frameworks", label: "Frameworks & Libraries", icon: "⚛️" },
   { key: "databases", label: "Databases", icon: "🗄️" },
-  { key: "design", label: "Design", icon: "🎨" },
-  { key: "tools", label: "Tools", icon: "🛠️" },
-  { key: "platforms", label: "Platforms", icon: "☁️" },
+  { key: "tools", label: "Developer Tools", icon: "🛠️" },
+  { key: "creative", label: "Creative Tools", icon: "🎨" },
 ] as const;
 
 function SkillBadge({ skill, delay }: { skill: string; delay: number }) {
