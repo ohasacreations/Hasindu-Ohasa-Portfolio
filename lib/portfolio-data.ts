@@ -9,7 +9,7 @@ export const personalInfo = {
   name: "Hasindu Ohasa",
   roles: ["AI/ML Enthusiast", "Cybersecurity Enthusiast", "Software Developer", "Designer", "Creator"],
   tagline: "Building intelligent, secure, and innovative digital solutions through software, AI, and technology.",
-  bio: "Hasindu Ohasa, a talented photographer, graphic designer, and content creator from Matara, Sri Lanka with a unique blend of creativity, technical expertise, and passion to every project I work on.",
+  bio: "Hasindu Ohasa is a BICT undergraduate from Sri Lanka exploring Artificial Intelligence, Machine Learning, Cybersecurity, and Software Development. He enjoys building practical digital products, experimenting with emerging technologies, and combining technical thinking with a strong creative background.",
   story: "I began my journey as a content creator in 2018 when I launched my own YouTube channel. Despite facing setbacks when my channel got hacked, I refused to give up on my dreams. I quickly pivoted to a Facebook page and then a TikTok account, where I have built a loyal following of over 40,000 fans and 4 million views.",
   profileImage: "/profile.jpg",
   founder: "Founder of Droplens Studios Co.",
@@ -34,11 +34,10 @@ export const socialLinks = {
 
 export const skills = {
   languages: ["Python", "TypeScript", "JavaScript", "Java", "C#", "C++", "PHP", "SQL", "HTML", "CSS"],
-  aiML: ["Artificial Intelligence", "Machine Learning", "Generative AI", "Computer Vision", "OpenCV"],
-  cybersecurity: ["Cybersecurity", "Network Security", "Linux", "Bash" ],
+  aiMl: ["Artificial Intelligence", "Machine Learning", "Generative AI", "Computer Vision", "OpenCV"],
+  cybersecurity: ["Cybersecurity", "Network Security", "Linux", "Bash"],
   frameworks: ["React", "Node.js", "Tailwind CSS", "Bootstrap", "React Native", "Flutter"],
   databases: ["SQL", "MySQL", "MongoDB", "Firebase"],
-  design: ["Photoshop", "After Effects", "Blender", "Figma", "Premiere Pro", "Filmora"],
   tools: ["Git", "GitHub", "VSCode", "Docker", "Linux", "IntelliJ IDEA", "Terminal", "Postman", "Arduino"],
   platforms: ["Android Development", "IoT", "Raspberry Pi", "AWS", "Google Cloud", "Netlify", "Vercel"],
   creative: ["Photoshop", "Figma", "Premiere Pro", "After Effects", "Blender"]
@@ -86,7 +85,7 @@ export const projects: Project[] = [
     description: "An interactive platform for practicing and executing Sri Lankan Advanced Level ICT practical examinations across multiple programming languages.",
     image: "/images/alpracticalhub.png",
     url: "https://alpracticalhub.vercel.app/",
-    tags: ["AI", "Gemini API", "TypeScript", "Voice Assistant"]
+    tags: ["TypeScript", "React", "Vite", "Education"],
     featured: true,
   },
     {
@@ -95,7 +94,7 @@ export const projects: Project[] = [
     description: "An experimental voice-controlled AI assistant built with the Gemini API, featuring speech interaction, AI-generated responses, and a custom interactive interface.",
     image: "/images/jarvis.jpg",
     url: "https://jarvis-protocol.vercel.app/",
-    tags: ["TypeScript", "HTML", "AI"],
+    tags: ["AI", "Gemini API", "TypeScript", "Voice Assistant"],
     featured: true,
   },
   {
