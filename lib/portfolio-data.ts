@@ -52,7 +52,7 @@ export const allSkills = [
   "Photoshop", "After Effects", "Blender", "Figma", "Premiere Pro", "Filmora",
   "Git", "GitHub", "VSCode", "Docker", "Linux", "Terminal", "Arduino",
   "React Native", "Flutter", "Android Development", "IoT", "Raspberry Pi",
-  "AWS", "Google Cloud", "Netlify", "Vercel","OpenCV
+  "AWS", "Google Cloud", "Netlify", "Vercel","OpenCV"
 ];
 
 export interface Project {
