@@ -7,8 +7,8 @@
 
 export const personalInfo = {
   name: "Hasindu Ohasa",
-  roles: ["Developer", "Designer", "Creator"],
-  tagline: "Passionate creative and tech enthusiast specializing in photography, videography, graphic design, and software development.",
+  roles: ["AI/ML Enthusiast", "Cybersecurity Enthusiast", "Software Developer", "Designer", "Creator"],
+  tagline: "Building intelligent, secure, and innovative digital solutions through software, AI, and technology.",
   bio: "Hasindu Ohasa, a talented photographer, graphic designer, and content creator from Matara, Sri Lanka with a unique blend of creativity, technical expertise, and passion to every project I work on.",
   story: "I began my journey as a content creator in 2018 when I launched my own YouTube channel. Despite facing setbacks when my channel got hacked, I refused to give up on my dreams. I quickly pivoted to a Facebook page and then a TikTok account, where I have built a loyal following of over 40,000 fans and 4 million views.",
   profileImage: "/profile.jpg",
@@ -33,21 +33,26 @@ export const socialLinks = {
 };
 
 export const skills = {
-  languages: ["Python", "HTML", "CSS", "JavaScript", "PHP", "TypeScript", "Java", "C++", "C#"],
+  languages: ["Python", "TypeScript", "JavaScript", "Java", "C#", "C++", "PHP", "SQL", "HTML", "CSS"],
+  aiML: ["Artificial Intelligence", "Machine Learning", "Generative AI", "Computer Vision", "OpenCV"],
+  cybersecurity: ["Cybersecurity", "Network Security", "Linux", "Bash" ],
   frameworks: ["React", "Node.js", "Tailwind CSS", "Bootstrap", "React Native", "Flutter"],
   databases: ["SQL", "MySQL", "MongoDB", "Firebase"],
   design: ["Photoshop", "After Effects", "Blender", "Figma", "Premiere Pro", "Filmora"],
-  tools: ["Git", "GitHub", "VSCode", "Docker", "Linux", "Terminal", "Arduino"],
+  tools: ["Git", "GitHub", "VSCode", "Docker", "Linux", "IntelliJ IDEA", "Terminal", "Postman", "Arduino"],
   platforms: ["Android Development", "IoT", "Raspberry Pi", "AWS", "Google Cloud", "Netlify", "Vercel"],
+  creative: ["Photoshop", "Figma", "Premiere Pro", "After Effects", "Blender"]
 };
 
 export const allSkills = [
   "Python", "HTML", "CSS", "JavaScript", "PHP", "TypeScript", "Java", "C++", "C#",
+  "Artificial Intelligence", "Machine Learning", "Generative AI", "Computer Vision",
+  "Cybersecurity", "Network Security", "Linux", 
   "React", "Node.js", "Tailwind CSS", "Bootstrap", "SQL", "MySQL", "MongoDB", "Firebase",
   "Photoshop", "After Effects", "Blender", "Figma", "Premiere Pro", "Filmora",
   "Git", "GitHub", "VSCode", "Docker", "Linux", "Terminal", "Arduino",
   "React Native", "Flutter", "Android Development", "IoT", "Raspberry Pi",
-  "AWS", "Google Cloud", "Netlify", "Vercel"
+  "AWS", "Google Cloud", "Netlify", "Vercel","OpenCV
 ];
 
 export interface Project {
@@ -69,7 +74,7 @@ export const projects: Project[] = [
     {
     id: "nova",
     title: "NOVA",
-    description: "A fully intractive website for the world's most advanced general-purpose humanoid robot.",
+    description: "An interactive web experience exploring the concept of an advanced general-purpose humanoid robot, built with React and TypeScript.",
     image: "/images/nova.png",
     url: "https://nova-beta-flax.vercel.app/",
     tags: ["TypeScript", "React", "Vite"],
@@ -78,16 +83,16 @@ export const projects: Project[] = [
   {
     id: "practicle",
     title: "AL Practical Hub",
-    description: "A interactive platforme to practice, execute, and perfect AL practicle exams over 6 different languages.",
+    description: "An interactive platform for practicing and executing Sri Lankan Advanced Level ICT practical examinations across multiple programming languages.",
     image: "/images/alpracticalhub.png",
     url: "https://alpracticalhub.vercel.app/",
-    tags: ["TypeScript", "React", "Vite"],
+    tags: ["AI", "Gemini API", "TypeScript", "Voice Assistant"]
     featured: true,
   },
     {
     id: "jarvis-protocol",
     title: "Jarvis-Protocol",
-    description: "A Advanced Voice AI Agent Assistant (built using the Gemini API)",
+    description: "An experimental voice-controlled AI assistant built with the Gemini API, featuring speech interaction, AI-generated responses, and a custom interactive interface.",
     image: "/images/jarvis.jpg",
     url: "https://jarvis-protocol.vercel.app/",
     tags: ["TypeScript", "HTML", "AI"],
@@ -161,6 +166,18 @@ export interface Education {
 
 export const education: Education[] = [
   {
+  id: "usj",
+  institution: "University of Sri Jayewardenepura",
+  degree: "Bachelor of Information and Communication Technology (BICT)",
+  period: "Aug 2026 - Present",
+  },
+  {
+  id: "cima",
+  institution: "CIMA",
+  degree: "Certificate in Business Accounting",
+  period: "2026 - Present",
+  },
+  {
     id: "harvard",
     institution: "Harvard University",
     degree: "CS50, Computer Science",
@@ -205,7 +222,7 @@ export const experience: Experience[] = [
     company: "DropLens Studios Co.",
     type: "Full-time",
     period: "May 2024 - Present",
-    description: "As the Founder and Creative Director of DropLens Studios, I oversee all aspects of our creative services, including photography, videography, and graphic design. I specialize in capturing stunning portraits, events, weddings, and landscapes.",
+    description: "Founder and Creative Director of DropLens Studios Co., leading digital media projects, client operations, creative workflows, and brand development while managing projects from concept through delivery."
   },
   {
     id: "photography",
